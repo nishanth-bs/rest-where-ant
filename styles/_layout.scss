@@ -9,7 +9,14 @@
 
 .header{
   min-height: 7rem;
+  font-size: 1.4rem;
   background-color: var(--color-grey-light-1);
+  border-bottom: var(--color-grey-light-2);
+
+  display: flex;
+  justify-content: space-between; // aligns element along the main axis X
+  align-items: center; //aligns child elements along the cross axis Y
+
 }
 
 .content{
