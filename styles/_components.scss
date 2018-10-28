@@ -136,6 +136,7 @@
     width: 3px;
     background-color: var(--color-primary);
     transform: scaleY(0);
+    //transform-origin:
     transition: transform .2s,
                 width .4s cubic-bezier(1,0,0,1) .2s,
                 background-color .1s;
@@ -172,6 +173,7 @@
 }
 
 .legal{
+  display: block;
   font-size: 1.2rem;
   color: var(--color-grey-light-2);
   text-align: center;
